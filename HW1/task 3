@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ДЗ-Содержание</title>
+		<style>
+			h1 {font-style: Arial; font-size: 16px;}
+			body {font-style: Arial; font-size: 10px;}
+		</style>
+</head>
+
+<body>
+	<h1 align="center">Язык разметки HTML</h1>
+
+	<p align="center">Содержание</p>
+
+		<p>&#8226; <a href="#">1 Общее представление</a></p>
+		<p>&#8226; <a href="#">2 Браузеры</a></p>
+		<p>&#8226; <a href="#">3 Версии</a> </p>
+		<p>&#8226; <a href="#">4 Перспективы</a></p>
+		<p>&#8226; <a href="#">5 Структура HTML-документа</a></p>
+				<p style="margin: 20px">	o <a href="#"> 5.1 Варианты DOCTYPE для HTML 4.01</a></p>
+				<p style="margin: 20px">	o <a href="#"> 5.2 Варианты DOCTYPE для HTML 5</a></p>
+		<p>&#8226; <a href="#">6 Браузерные войны</a></p>
+		<p>&#8226; <a href="#">7 Примечания</a></p>
+		<p>&#8226; <a href="#">8 См. также</a></p>
+		<p>&#8226; <a href="#">9 Ссылки</a></p>
+		<p>&#8226; <a href="#">10 Литература</a></p>
+
+</body>
+</html>
