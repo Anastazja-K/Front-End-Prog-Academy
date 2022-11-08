@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.form{
+	width: 1200px;
+	margin: auto;
+}
+.form__header{
+	display: flex;
+	height: 40px;
+	background: lightgreen;
+	align-items: center;
+}
+.form__header select {
+	background: lightgreen;
+	border: none;
+	margin: 0 190px;
+}
+.form__header h3 {
+	margin: 0 15px;
+}
+.form__body>div{
+	width: 50%;
+}
+.form__body {
+	display: flex;
+	font-weight: bold;
+}
+.form__item{
+	display: flex;
+	margin: 25px 0 25px 15px;
+	justify-content: space-between;
+}
+.form__item span{
+	color: red;
+}
+.form__item input[type="text"]{
+	width: 250px;
+}
+.form__item .form__textarea {
+	height: 100px;
+}
+.form__item select{
+	width: 253px;
+}
+#w50 {
+	width: 125px;
+	margin-right: 125px;
+}
+.form__web{
+width: 250px;
+display: flex;
+flex-direction: column;
+}
+.form__webItem{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.form__webItem input{
+	width: 150px!important;
+}
+.form__footer{
+	height: 40px;
+	background: lightgreen;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form__footer > input{
+	border: none;
+	background: grey;
+	color: white;
+	margin: 0 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+.form__right{
+	
+}
+
+
+.form__list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding-right: 25px;
+	width: 250px;
+}
+.form__question{
+	/*display: flex;
+	flex-wrap: wrap;*/
+	padding-left: 45px;
+	width: 250px;
+}
+#padding25{
+	padding-right: 25px;
+}
