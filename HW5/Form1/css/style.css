@@ -1,0 +1,56 @@
+.form {
+	width: 600px;
+	border: 1px solid mediumblue;
+	margin: auto;
+}
+.form>div{
+	margin: 10px 20px 10px 5px ;
+	padding-right: 0;
+	}
+
+.form input[type="text"]{
+	width: 180px;
+	border: 1px solid mediumblue;
+	padding-left: 20px;
+	margin-left: 20%;
+}
+
+#textarea {
+	border: 1px solid mediumblue;
+	margin-left: 20%;
+	}
+
+.form__email input{
+	margin-left:92px!important;
+}
+
+.form__message select{
+	width: 186px;
+	border: 1px solid mediumblue;
+	margin-left: 10%;
+}
+.form__text textarea{
+	width: 360px!important;
+	height: 150px;
+}
+.form span{
+	color: red;
+}
+#security{
+	width: 90px;
+	margin-left: 20px;}
+
+.form__security {
+	display: flex;
+	justify-content: space-around;
+}
+	
+.form__security img{
+	width: 130px;
+	height: 50px;
+	border: 1px solid mediumblue;
+}
+.form__btn button{
+	margin-left: 30%;
+}
+
