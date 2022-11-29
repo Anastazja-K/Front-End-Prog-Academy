@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow: hidden;
+	font-family: 'Dancing Script', cursive;
+}
+.container>div{
+	width: 100vw;
+}
+.container__header{
+	height: 65vh;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.header__h1{
+	height: 80px;
+	width: 100vw;
+	background: rgba(255, 255, 255, .4);
+	position: absolute;
+	top: 60px;
+	font-size: 30px;
+	text-align: center;
+}	
+
+.container__header>div{
+	height: 230px;
+	width: 380px;
+	margin-bottom: 30px;
+	background: rgba(0, 0, 0, .3);
+	color: whitesmoke;
+	font-size: 25px;
+	padding: 15px 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .8);
+}
+.container__footer{
+	height: 35vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 18px;
+
+}
+.footer__left h3{
+	font-size: 30px;
+	text-align: center;
+}
+.footer__left{
+	height: 200px;
+	width: 700px;
+	margin: 0 50px 25px 50px;
+}
+.footer__right h3{
+	font-size: 21px;
+	margin-top: 10px;
+	text-align: center;
+}
+.footer__right{
+	height: 200px;
+	width: 300px;
+	margin: 15px 50px;
+	display: flex;
+	flex-direction: column;
+}
+.footer__right>div{
+	margin: 10px 10px;
+}
+i{
+	width: 30px;
+	height: 30px;
+}
+.fa-facebook {
+	font-size: 25px;
+}
+.fa-twitter{
+	font-size: 25px;
+}
+.fa-pinterest{
+	font-size: 25px;
+}
+a{
+	text-decoration: none;
+}
+.header__left span{
+	width: 220px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.header__center span{
+	width: 220px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.header__right span{
+	width: 220px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
